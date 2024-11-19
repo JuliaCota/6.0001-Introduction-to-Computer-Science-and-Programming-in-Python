@@ -1,0 +1,51 @@
+CHAPTER 1
+Chapter 1 of "Introduction to Computation and Programming Using Python" take us to the intrduction of computation, bringing concepts as:
+Declarative Knowledge: is the knowledge composed of statements of fact i.e. the sum of 2 numbers X is equal that number times 2, such as x + x = 2x
+Imperative Knowledge: is the knowledge composed of step by step "how to".
+Algorithm: the description of the imperative knowledge is called na algorithm. The step by step
+
+Literals i.e. number 4, string 'abc'
+Infix operators i.e. + and /
+Syntax: <literal> <operator> <literal>
+Static Semantics: Will check the syntax and observe the meaning, in case of na error will return and inform it.
+Semantics: Cannot be ambiguous, it has to have exactly one meaning/purpose.
+
+-> In case of program error, it will behave in an unintended way.
+	* It might crash
+	* It might keep running, in loop
+	* It might run to completion and produce an answer that might or not be correct - this can cause enormous failures, causing losses in the area the program is used, be in the Market, hospital machine, airplane system...
+
+For the Finger Execise of this Chapter, here's my answer. - algorithm for driving between two points as you would say to a person. Imagine the outcome.
+
+- get in the car
+- turn the car on
+- drive from A to B
+
+-> They may crash a window to get in the car, turn the car on without the Keys (other ways ;), drive in insane speed or really really low speed to save on the gas, don't drive only in roads and highways and invade sidepaths, cross traffic lights, cause transit acidents...
+
+CHAPTER 2.1
+Program/Script: a python program or script is a sequence of definitions and commands who are evaluated and executed by the interpreter (the shell)
+Command/Statement: print 'hello world' is a statement/command in python and instructs the interpreter to output the string hello world.
+
+Objects: python programs manipulate objects. Every object has a type.
+	Scalar Objects are indivisible
+	- int
+	- float
+	- bool
+	- None
+	Non-scalar Objects have internal structure
+	- strings
+
+In expressions, if both objects are int, the result will be given as int, if either is float, the result will be given as float
+
+Variable is a name, for the python program, nothing changes, it can be a character or a really long name. The variable names are important for the programmers who read the code to comprehend it and be able to modify and correct it.
+
+At last, 2.1 metions IDLE, the IDE we're going to be using throughout the book.
+
+LECTURE 1
+- practice and code a lot
+* computers peforms built-in calculations. You define them, *they only know what you tell them*!
+
+what we're looking for is declarative knowledge, writing a recipe for the computer. Problem solving skills gets your thinking to transform the imperative knowledge into the declarative one, Programming skills gets you to translate your recipe into coding.
+
+The machine stores and executes instructions, you need to know which instructions to give and how.
